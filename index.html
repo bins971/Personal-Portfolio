@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/3fd99ad21e.js" crossorigin="anonymous"></script> 
+
+</head>
+<body> 
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <img src=".png\background.png" class=".png\background.png">
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li> 
+                        <li><a href="#about">About me</a></li>
+                        <li><a href="#services">Services</a></li> 
+                        <li><a href="#Portfolio"> Portfolio</a></li>
+                        <li><a href="#Contact">Contact</a></li>
+                        <i class="fa-solid fa-xmark" onclick="CloseMenu()"></i>
+                    </ul> 
+                    <i class="fa-solid fa-bars" onclick="OpenMenu()"></i>
+                </nav>
+                <div class="header-text">
+                    <p>Developer</p> 
+                    <h1>Hi, I'm <span>Kiel</span><br>Vincent </h1>
+                </div>
+            </div>
+
+        </div>
+        
+        <!-----------------------------about--------------->
+
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src=".png\pictures.jpg" class=".png\pictures.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Hi, I'm Kiel Vincent aspiring to be a Website Developer/Software Developer. A student passionate about creating intuitive and engaging digital Experiences. </p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('Education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Database</span><br> My SQL</li>
+                        <li><span>Web Dev</span><br>Web Designing</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Experience">
+                    <ul>
+                        <li><span>2022 - Current</span><br>Database Developer</li>
+                        <li><span>2022 - Current</span><br>Web Developer</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Education">
+                    <ul>
+                        <li><span>2022</span><br> Web Designing learned at Cavite State University of Bacoor</li>
+                        <li><span>2022</span><br>Web Dev learned at Cavite State University of Bacoor</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<!---------services----------------------------------------->
+<div id="services">
+    <div class="container"> 
+        <h1 class="sub-title">Services</h1>
+        <div class="services-List"> 
+            <div>
+                <i class="fa-solid fa-code"></i> 
+                <h2>Web Dev</h2>
+                <p>      </p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-uikit"></i>
+                <h2>Database</h2>
+                <p>      </p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div> 
+
+<!-------portfolio----------------------->
+
+<div id="Portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Works</h1>
+        <div class="work-List">
+            <div class="work">
+                <img src=".png\Picture1.png">
+                <div class="layer">
+                    <h3>Database</h3>
+                    <a href="#"><i class="fa-brands fa-staylinked"></i></a>
+                     <a href="https://drive.google.com/drive/folders/1ahPIDNa43VcnPzAduqOZM1RUk-v4DPWX?usp=drive_link"></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src=".png\Picture2.png">
+                <div class="layer">
+                    <h3>POS System</h3>
+                    <a href="#"><i class="fa-brands fa-staylinked"></i></a>
+                    <a href="https://docs.google.com/presentation/d/1WticgKZVGPWozMpq7z_q1tKkiXk5zSfs/edit?usp=drive_link&ouid=113704292881604710547&rtpof=true&sd=true"></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQI-zgOA4Wfl83RjAbEkaOavo1_4T3CAYcSTw&s">
+                <div class="layer">
+                    <h3>System</h3>
+                    <a href="#"><i class="fa-brands fa-staylinked"></i></a>
+                    <a href="C:\Users\Neslyn Alpapara\Downloads\BUONO CAFE SYSTEM APPLICATION PROGRAM.pdf"></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+
+<!---------contact------->
+
+    <div id="Contact"> 
+        <div class="container">
+            <div class="row">   
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-regular fa-paper-plane"></i>Kielvincentalpapara003@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>09997112876</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/kielvincentalapapara"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="www.linkedin.com/in/kiel-vincent-alpapara"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://instagram.com/super_kielll/"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                    <a href="" download class ="btn btn2">Download CV</a>
+                </div>
+             </div>
+            </div>
+        </div>
+    </div>
+
+
+<Script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</Script>
+<script>
+
+    var sidemeu =  document.getElementById("sidemenu");
+
+    function OpenMenu(){
+        sidemeu.style.right = "0";
+    }
+    function CloseMenu(){
+        sidemeu.style.right = "-200px";
+    }
+
+
+</script>
+
+
+</body>
+</html> 
