@@ -29,7 +29,7 @@ nav{
     flex-wrap: wrap;
     
 }
-.png\background.png{
+.Personal-Portfolio\.png\background1.png{
     width: 50px ;
 }
 nav ul li{
@@ -83,7 +83,7 @@ nav ul li a:hover::after{
      flex-basis: 35%;
 }
 .about-col-1 img{
-    background-image: url(.png\pictures.jpg);
+    background-image: url(https://scontent.fmnl17-5.fna.fbcdn.net/v/t39.30808-6/378317762_2454037411444069_6090467262988938988_n.jpg?stp=dst-jpg_s206x206&_nc_cat=110&ccb=1-7&_nc_sid=fe5ecc&_nc_eui2=AeEmk6mCzpOogxFg-45VoILpdOJBHUWY3wF04kEdRZjfAXUGxg-uTXzKLLYt568fv58ySm2OHkto-TKdN740aMxC&_nc_ohc=oDE_DFmiNzsQ7kNvgGLvFtR&_nc_zt=23&_nc_ht=scontent.fmnl17-5.fna&_nc_gid=AKClKFaD5B-W9QfU_nHCoNv&oh=00_AYCgXEBecu-ohV-X5jlp4N8nhfc0Hn75RnjG2oEVwLTAlg&oe=6737A607);
     width: 100%;
     border-radius: 15px;
 }
@@ -199,10 +199,11 @@ nav ul li a:hover::after{
     border: 10px;
     position: relative;
     overflow: hidden;
+    margin-left: 70px;
     
 }
 .work img{
-    width: 300px;
+    width: 400px;
     height: 300px;
     background-size: 150px 100px;
     background-position: center;
